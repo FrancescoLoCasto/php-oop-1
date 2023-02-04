@@ -24,12 +24,29 @@
    $ChiedimiSeSonoFelice = new Movies('Chiedimi Se Sono Felice', 'Aldo, Giovanni e Giacomo', '2000','Comico');
    $CosièLaVita = new Movies('Cosi è la vita', 'Aldo, Giovanni e Giacomo', '1998','Comico');
 
-   echo $NataleInIndia->toPrintAll();
-   echo $NataleInCrociera->toPrintAll();
-   echo $BikerBoyz->toPrintAll();
-   echo $ChiedimiSeSonoFelice->toPrintAll();
-   echo $CosièLaVita->toPrintAll();
+   echo '<h3>';
+      echo $NataleInIndia->toPrintAll();
+   echo '</h3>';
 
+   echo '<h3>';
+      echo $NataleInIndia->toPrintAll();
+   echo '</h3>';
+
+   echo '<h3>';
+      echo $NataleInCrociera->toPrintAll();
+   echo '</h3>';
+
+   echo '<h3>';
+      echo $BikerBoyz->toPrintAll();
+   echo '</h3>';
+
+   echo '<h3>';
+      echo $ChiedimiSeSonoFelice->toPrintAll();
+   echo '</h3>';
+
+   echo '<h3>';
+      echo $CosièLaVita->toPrintAll();
+   echo '</h3>';
 
    ?>
    </body>
