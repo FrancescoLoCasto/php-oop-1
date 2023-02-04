@@ -19,10 +19,17 @@ class Movies{
       return $this->titleMovie;
    }
 
+   public function GetArtDirectorMovie(){
+      return $this->artDirector;
+   }
 
+   public function GetYearMovie(){
+      return $this->yearProduction;
+   }
 
-
-
+   public function GetTypeMovie(){
+      return $this->movieType;
+   }
 
 
 }
