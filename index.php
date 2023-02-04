@@ -1,3 +1,7 @@
+<?php
+  require_once __DIR__ . '/models/Movie.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -7,6 +11,8 @@
       <title>OOP</title>
    </head>
    <body>
-      
+   <?php 
+
+   ?>
    </body>
 </html>
