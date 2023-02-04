@@ -33,7 +33,7 @@ class Movies{
 
 
    public function toPrintAll() {
-      
+      return $this->GetTitleMovie() .' - '. $this->GetArtDirectorMovie() .' - '. $this->GetYearMovie() .' - '. $this->GetTypeMovie();
    }
 
 }
