@@ -16,7 +16,7 @@ class Movies{
 
 
    public function GetTitleMovie(){
-      
+      return $this->titleMovie;
    }
 
 
