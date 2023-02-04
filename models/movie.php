@@ -15,6 +15,11 @@ class Movies{
    }
 
 
+   public function GetTitleMovie(){
+      
+   }
+
+
 
 
 
