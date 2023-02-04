@@ -32,5 +32,9 @@ class Movies{
    }
 
 
+   public function toPrintAll() {
+      
+   }
+
 }
 ?>
