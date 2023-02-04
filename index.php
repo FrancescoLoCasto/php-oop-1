@@ -18,6 +18,11 @@
 
    <?php 
 
+   $NataleInIndia = new Movies('Natale In India', 'Aurelio De Laurentiis', '2003','Cinepanettone');
+
+   echo $NataleInIndia->toPrintAll()
+
+
    ?>
    </body>
 </html>
