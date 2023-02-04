@@ -19,8 +19,16 @@
    <?php 
 
    $NataleInIndia = new Movies('Natale In India', 'Aurelio De Laurentiis', '2003','Cinepanettone');
+   $NataleInCrociera = new Movies('Natale In Crociera', 'Aurelio De Laurentiis', '2007','Cinepanettone');
+   $BikerBoyz = new Movies('Biker Boyz', 'Stephanie Allain', '2003','Azione');
+   $ChiedimiSeSonoFelice = new Movies('Chiedimi Se Sono Felice', 'Aldo, Giovanni e Giacomo', '2000','Comico');
+   $CosièLaVita = new Movies('Cosi è la vita', 'Aldo, Giovanni e Giacomo', '1998','Comico');
 
-   echo $NataleInIndia->toPrintAll()
+   echo $NataleInIndia->toPrintAll();
+   echo $NataleInCrociera->toPrintAll();
+   echo $BikerBoyz->toPrintAll();
+   echo $ChiedimiSeSonoFelice->toPrintAll();
+   echo $CosièLaVita->toPrintAll();
 
 
    ?>
